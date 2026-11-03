@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/tapas/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 
-PRODUCT_NAME := lineage_tapas
+PRODUCT_NAME := shinkai_tapas
 PRODUCT_DEVICE := tapas
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
