@@ -77,3 +77,13 @@ persist.log.tag.minksocket=S
 
 # Bluetooth
 persist.vendor.bt.a2dp.aac_whitelist=false
+
+# mistos prop
+ro.mist.display=1080 x 2400, 120 hz
+ro.mist.battery=5000mAh
+ro.mist.soc=Snapdragon® 685
+ro.mist.camera=50MP + 8MP + 2MP
+ro.mist.front=13MP
+ro.mist.platform=SM6225
+ro.mist.screen=6.67’ Amoled 
+ro.mist.device.name=Topaz/Tapas
