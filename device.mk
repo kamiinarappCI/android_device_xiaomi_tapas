@@ -627,3 +627,12 @@ $(call inherit-product-if-exists, device/xiaomi/tapas-miuicamera/device.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/xiaomi/tapas/tapas-vendor.mk)
+
+# Set maintainer
+MISTOS_MAINTAINER := kamiinarappCI
+
+# Enable GMS with mini package
+WITH_GMS := true
+
+# Enable UI enhancements
+TARGET_ENABLE_BLUR := false
