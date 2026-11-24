@@ -26,19 +26,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="tapas_global-user 15 AQ3A.240829.003 OS2.0.205.0.VMTMIXM release-keys" \
     BuildFingerprint=Redmi/tapas_global/tapas:15/AQ3A.240829.003/OS2.0.205.0.VMTMIXM:user/release-keys \
     DeviceProduct=tapas
-
-# In your device.mk or BoardConfig.mk
-
-# Set maintainer
-MISTOS_MAINTAINER := kamiinarappCI
-
-# Enable GMS with mini package
-WITH_GMS := true
-TARGET_USES_MINI_GAPPS := true
-
-# Enable UI enhancements
-TARGET_ENABLE_BLUR := false
-
-# Enable features
-TARGET_SUPPORTS_QUICK_TAP := true
-
